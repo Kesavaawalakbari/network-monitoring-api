@@ -1,0 +1,17 @@
+
+{
+  "name": "network-monitoring-api",
+  "version": "1.0.0",
+  "description": "Dummy network monitoring API for Jenkins CI/CD lab",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.4"
+  }
+}
